@@ -10,12 +10,15 @@ const Appcontainer = styled.div`
   align-items: center;
   justify-content: center;
   // top:0px;
-  position:absolute;
+  position: absolute;
+  background-image: url(G:\web development\blog\blog-site\bg\mumbai.jpg);
 `;
 function App() {
-  return <Appcontainer>
-    <AccountBox />
-  </Appcontainer>;
+  return (
+    <Appcontainer>
+      <AccountBox />
+    </Appcontainer>
+  );
 }
 
 export default App;
