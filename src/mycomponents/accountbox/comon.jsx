@@ -17,7 +17,7 @@ box-shadow: 0px 0px 2.5px rgba(15, 15, 15, 0.19);
 
 export const MutedLink = styled.a`
 font-size:12px;
-color:rgba(200,200,200,0.8);
+color:rgba(200,200,200,9.0);
 font-weight:500;
 text-decoration:none;
 font-family: 'Exo 2', sans-serif;
@@ -26,7 +26,7 @@ margin: 0 4px;
 
 export const BoldLink = styled.a`
 font-size:13px;
-color:rgba(241,196,15);
+color:rgb(63,94,251);
 font-weight:500;
 text-decoration:none;
 font-family: 'Exo 2', sans-serif;
@@ -53,7 +53,7 @@ width: 100%;
 
   &:focus {
     outline: none;
-    border-bottom: 2px solid rgb(241, 196, 15);
+    border-bottom: 2px solid  rgb(63,94,251);
   }
 `;
 
@@ -67,12 +67,8 @@ export const SubmitButton = styled.button`
   border-radius: 100px 100px 100px 100px;
   cursor: pointer;
   transition: all, 240ms ease-in-out;
-  background: rgb(241, 196, 15);
-  background: linear-gradient(
-    58deg,
-    rgba(241, 196, 15, 1) 20%,
-    rgba(243, 172, 18, 1) 100%
-  );
+  background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
 
   &:hover {
     filter: brightness(1.03);

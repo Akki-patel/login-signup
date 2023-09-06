@@ -12,7 +12,7 @@ display:flex;
 flex-direction:column;
 border-radius:19px;
 background-color:#fff;
-box-shadow:0 0 2px rgba(15,15,15,0.25);
+box-shadow:0 0 2px rgba(15,15,15,1.25);
 position:relative;
 overflow:hidden;
 `;
@@ -27,12 +27,8 @@ border-radius: 50%;
 top:-290px;
 left:-70px;
 transform:rotate(60deg);
-background:rgb(241,196,15);
-background-color: linear-gradient(
-  58deg,
-  rgba(241,196,15,1) 20%,
-  rgba(243,172,18,1) 100%
-);
+background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
 `;
 
 const Topcontainer = styled.div`
